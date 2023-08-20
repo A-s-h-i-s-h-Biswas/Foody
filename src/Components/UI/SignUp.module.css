@@ -1,0 +1,95 @@
+.signup_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    height: auto;
+    position: fixed;
+    top: 10vh;
+    left: 35%;
+    z-index: 100;
+    overflow: hidden;
+}
+@media only screen and (min-width: 993px) and (max-width: 1230px) {
+    .signup_container{
+      width: 40%;
+      left: 30%;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .signup_container{
+      width: 50%;
+      left: 25%;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .signup_container{
+      width: 60%;
+      left: 20%;
+    }
+  }
+  @media only screen and (min-width: 401px) and (max-width:600px){
+    .signup_container{
+      width: 70%;
+      left: 15%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .signup_container{
+      width: 80%;
+      left: 10%;
+    }
+  }
+.signup_form{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup_form_items{
+    width: 90%;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.signup_form_items input{
+    height: 3rem;
+    outline: none;
+    /* border-style: none; */
+}
+.signup_form_items label{
+
+}
+.signup{
+    height: 5rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.signup h3{
+    margin: 0;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.signup p{
+    margin: 0;
+    color: orange;
+    cursor: pointer;
+
+}
+.signup p:hover{
+    
+    
+}
+.action{
+    width: 90%;
+    /* margin: .5rem 0; */
+    height: 3rem ;
+    background: orange;
+}
